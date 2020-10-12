@@ -1,21 +1,23 @@
 # M: Item Type
 # W: Weight
 # N: Display Name
-# CM: Catch Message
 # L: Tooltip/Lore
+# CM: Catch Message
 # C: Commands (Ran on item pickup)
 # E: Enchants (Separate by spaces)
 # EA: Enchants Amount(Exact# or Min# Max#)
-# EC: Enchant chance
-# D: Durability (True/False) (Exact# or Min# Max#)
+# EC: Enchant chance (In %)
+# D: Durability (True/False) (Exact# or Min# Max#) (How much durability is removed from a tool)
 # A: Amount(Exact# or Min# Max#)
 # XP: Experience(# or Min Max)
 # CN: Consumed (True/False) (Can only be used for named items)
 # FILE: Separate File
-# Example: 'M:diamond_pickaxe,W:100,N:&dDiamond Pickaxe,CM:&7You caught a fish!,L:&7First Line/nSecond Line,
-#           C:say %player% caught a Diamond Pickaxe!/ngive %player% gold_ingot,
+# Example: 'M:diamond_pickaxe,W:100,N:&dDiamond Pickaxe,L:&7First Line/nSecond Line,
+#           CM:&7You caught a fish!, C:say %player% caught a Diamond Pickaxe!/ngive %player% gold_ingot,
 #           E:efficiency unbreaking fortune,EA:1 2,EC:30.0,D:true 1 1000,A:1,XP:5 10,CN:false'
 # Example for file: 'FILE:cod.yml'
+#
+# Enchant levels are currently randomized
 #
 # Placeholders: %player%
 # Command and Lore new line '/n'
