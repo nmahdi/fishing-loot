@@ -1,0 +1,9 @@
+name: FishingLoot
+author: Mahdi
+version: 1.0.0
+main: com.fishingloot.Main
+api-version: 1.16
+commands:
+  fishingloot:
+    aliases: [fl, fishingl, floot]
+    description: Brings up all Fishing Loot commands.

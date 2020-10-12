@@ -1,0 +1,82 @@
+# M: Item Type
+# W: Weight
+# N: Display Name
+# CM: Catch Message
+# L: Tooltip/Lore
+# C: Commands (Ran on item pickup)
+# E: Enchants (Separate by spaces)
+# EA: Enchants Amount(Exact# or Min# Max#)
+# EC: Enchant chance
+# D: Durability (True/False) (Exact# or Min# Max#)
+# A: Amount(Exact# or Min# Max#)
+# XP: Experience(# or Min Max)
+# CN: Consumed (True/False) (Can only be used for named items)
+# FILE: Separate File
+# Example: 'M:diamond_pickaxe,W:100,N:&dDiamond Pickaxe,CM:&7You caught a fish!,L:&7First Line/nSecond Line,
+#           C:say %player% caught a Diamond Pickaxe!/ngive %player% gold_ingot,
+#           E:efficiency unbreaking fortune,EA:1 2,EC:30.0,D:true 1 1000,A:1,XP:5 10,CN:false'
+# Example for file: 'FILE:cod.yml'
+#
+# Placeholders: %player%
+# Command and Lore new line '/n'
+# Keyword for enchant list 'all'
+drops:
+  - 'M:enchanted_book,W:200,E:all,EA:1 4'
+  - 'M:cod,W:1250'
+  - 'M:salmon,W:950'
+  - 'M:tropical_fish,W:650'
+  - 'M:pufferfish,W:528'
+  - 'M:lily_pad,W:400'
+  - 'M:glass_bottle,W:400'
+  - 'M:coal,W:800,A:1 12'
+  - 'M:coal,W:500,A:13 24'
+  - 'M:coal,W:250,A:25 32'
+  - 'M:iron_ingot,W:600,A:1 8'
+  - 'M:iron_ingot,W:200,A:9 12'
+  - 'M:gold_ingot,W:400,A:1 4'
+  - 'M:gold_ingot,W:200,A:5 6'
+  - 'M:diamond,W:400,A:1 6'
+  - 'M:emerald,W:200,A:1 4'
+  - 'M:leather,W:1250'
+  - 'M:bow,W:50,E:infinity power punch flame unbreaking,D:false'
+  - 'M:fishing_rod,W:100,E:lure mending unbreaking,D:false'
+  - 'M:ink_sac,W:30'
+  - 'M:bone,W:80'
+  - 'M:string,W:100'
+  - 'M:experience_bottle,W:200,A:1 4'
+  - 'M:paper,W:50'
+# 'all' Keyword enchant list
+enchants:
+  - 'protection'
+  - 'fire_protection'
+  - 'feather_falling'
+  - 'blast_protection'
+  - 'projectile_protection'
+  - 'respiration'
+  - 'aqua_affinity'
+  - 'thorns'
+  - 'depth_strider'
+  - 'frost_walker'
+  - 'shaprness'
+  - 'smite'
+  - 'bane_of_arthropods'
+  - 'knockback'
+  - 'fire_aspect'
+  - 'looting'
+  - 'efficiency'
+  - 'silk_touch'
+  - 'unbreaking'
+  - 'fortune'
+  - 'power'
+  - 'punch'
+  - 'flame'
+  - 'infinity'
+  - 'lure'
+  - 'loyalty'
+  - 'impaling'
+  - 'riptide'
+  - 'channeling'
+  - 'multishot'
+  - 'quick_charge'
+  - 'piercing'
+  - 'mending'  
