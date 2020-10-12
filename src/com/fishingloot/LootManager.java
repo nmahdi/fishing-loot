@@ -183,7 +183,7 @@ public class LootManager {
                     builder.addLore("&7Catch Message: &f" + ChatColor.translateAlternateColorCodes('&', current.getCatchMsg()));
                     builder.spaceLore();
                 }
-                builder.addLore("&7Weight: " + current.getWeight());
+                builder.addLore("&7Weight: " + current.getChance());
                 builder.addLore("&7Chance: " + formatter.format((Double.valueOf(current.getChance())/(double)totalWeight)*100d) + "%");
                 if(!current.getCommands().isEmpty()){
                     builder.spaceLore();
