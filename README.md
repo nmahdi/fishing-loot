@@ -15,7 +15,7 @@ The plugin currently supports:
 - Consumed (Item is consumed on pickup)
 
 # Config
-Configuration can be found (INSERT SPIGOT LINK HERE)
+Configuration can be found [here](https://www.spigotmc.org/resources/fishing-loot.84717/).
 
 # Commands
 '/fishingloot loot' Opens up the loot table (GUI). Permission: fishingloot.loot
@@ -33,6 +33,6 @@ Planned Features:
 - Support for enchant levels
 
 # Notes
-This is a project I made for fun. Do not expect any updates. 
+This is a project I made for fun. Do not expect fast updates.
 
-Support will be very limited, add Mahdi#2374 on discord for support.
+For reporting bugs & support message Mahdi#2374 on Discord. (Support will be very limited, I apologize in advance)
