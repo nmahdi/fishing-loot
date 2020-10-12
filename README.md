@@ -19,6 +19,7 @@ Configuration can be found (INSERT SPIGOT LINK HERE)
 
 # Commands
 '/fishingloot loot' Opens up the loot table (GUI). Permission: fishingloot.loot
+
 '/fishingloot enchants' Sends you a chat message with the 'all' keyword enchants. Warning: SPAMS YOUR CHAT. Permission: fishingloot.enchants
 
 # Planned Features
@@ -33,4 +34,5 @@ Planned Features:
 
 # Notes
 This is a project I made for fun. Do not expect any updates. 
+
 Support will be very limited, add Mahdi#2374 on discord for support.
